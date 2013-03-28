@@ -1,2 +1,3 @@
-x=[-10:0.2:10]^2;
-meshgrid(x,sincos2(x))
+[x,y]=meshgrid(-10:.2:10);
+f=sin(x)+cos(y);
+surf(x,y,f)

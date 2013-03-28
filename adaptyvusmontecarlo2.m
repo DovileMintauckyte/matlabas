@@ -16,5 +16,5 @@ xMin=x(indMin,:);%  dvitaski reikalingas kad visas eilute paimtu
 xMax=x(indMax,:);% 
 fprintf('Surastas min=%6.4f, taske x=(%6.4f,%6.4f)\n',fMin,xMin(1),xMin(2)); 
 fprintf('Surastas max=%6.4f, taske x=(%6.4f,%6.4f)\n',fMax, xMax(1),xMax(2));
-%grafikas2
+grafikas2
 
